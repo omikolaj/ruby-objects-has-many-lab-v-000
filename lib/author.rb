@@ -15,7 +15,7 @@ end
 def add_post(post)
   @posts << post
   post.author = self
-  @@all_posts  +=1
+  @@all_posts +=1
 end
 
 def add_post_by_title(post_title)
