@@ -4,9 +4,9 @@ class Song
   @@song_count = []
 
   def initialize(name)
-    self.name = name  
+    self.name = name
     @@song_count << self
-    
+
   end
 
 end
