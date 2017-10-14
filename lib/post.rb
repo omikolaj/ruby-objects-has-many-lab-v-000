@@ -5,4 +5,8 @@ def initialize(title)
   self.title = title
 end
 
+def author_name
+  self.author
+end
+
 end
