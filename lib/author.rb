@@ -16,7 +16,7 @@ def add_post(post)
 end
 
 def add_post_by_title(post_title)
-  binding.pry
+  #binding.pry
   post = Post.new(post_title)
   post.author = self
   @post << post
