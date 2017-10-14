@@ -7,7 +7,7 @@ def initialize(name)
 end
 
 def posts
-@posts
+  @posts
 end
 
 end
