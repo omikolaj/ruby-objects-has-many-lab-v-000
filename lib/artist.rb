@@ -1,10 +1,12 @@
 class Artist
   attr_accessor :name
 
+  @@song_count = []
+
   def initialize(name)
+    binding.pry
     @songs = []
     self.name = name
-
   end
 
   def songs
@@ -24,7 +26,7 @@ class Artist
   end
 
   def self.song_count
-    name.songs
+    
 
   end
 
