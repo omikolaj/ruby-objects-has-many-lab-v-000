@@ -14,7 +14,7 @@ def add_post(post)
   post = post.new
   @posts << post
   post.author = self
-  
+
 
 end
 
