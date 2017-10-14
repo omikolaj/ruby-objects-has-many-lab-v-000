@@ -9,7 +9,4 @@ def title
   @title
 end
 
-
-
-
 end
