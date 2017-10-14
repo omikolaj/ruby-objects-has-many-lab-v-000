@@ -5,8 +5,4 @@ def initialize(title)
   self.title = title
 end
 
-#def title
-  #@title
-#end
-
 end
