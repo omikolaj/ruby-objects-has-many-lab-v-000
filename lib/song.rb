@@ -3,6 +3,8 @@ class Song
 
   def initialize(name)
     self.name = name
+    @@songs = []
+    @@songs << self
   end
 
 end
