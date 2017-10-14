@@ -10,7 +10,7 @@ def author_name
     nil
   else
   self.author.name
-end
+  end
 end
 
 end
